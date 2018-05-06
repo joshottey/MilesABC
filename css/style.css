@@ -1,0 +1,36 @@
+html {
+  font-size: 18px;
+  font-family: courier, serif;
+  color: #111;
+}
+
+h1 {
+  margin: 0;
+  color: #297EFF;
+  font-size: 4.25em;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 750px;
+}
+
+.letter {
+  background: linear-gradient(135deg, #fff, #eee);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+  font-size: 3em;
+  transition: 0.25s;
+}
+
+.letter:hover {
+  cursor: pointer;
+}
