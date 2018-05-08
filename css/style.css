@@ -40,6 +40,10 @@ h1 {
   cursor: pointer;
 }
 
+#keyboard {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 3em;

@@ -25,5 +25,7 @@ document.onreadystatechange = function () {
         document.getElementsByClassName("letter")[pressedKey].style.transform = "initial";
       });
     });
+
+    document.querySelector("#keyboard").focus();
   }
 }
